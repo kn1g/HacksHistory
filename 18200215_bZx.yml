@@ -1,0 +1,48 @@
+# Company behind the project if applicable
+Company: bZx
+
+# Project name
+Project: bZx
+
+# Project sector/type
+# Choose between: DeFi, CEX, Network or add a new category
+Category: DeFi
+
+# What type of incident? E.g. rug-pull, hack, technical-failure, DoS, disclosure
+Type: hack
+
+# Keywordlist (add new if not appropriate):
+# FlashLoan
+# PriceManipulation
+# ...
+Keywords: [FlashLoan,PriceManipulation]
+
+# Date as accurate as possible. Can be a range if applicable.
+# Format: [start<dd M yyyy>, end<dd M yyyy> (if applicable)]
+Date: [18 Feb 2020]
+
+# Transaction hash if applicable
+TxHash: https://etherscan.io/tx/0x762881b07feb63c436dee38edd4ff1f7a74c33091e534af56c9f7d49b5ecac15
+
+# TVL in ETH
+ProjectTVL:
+
+# Accurate Loss/damage in Coins/Tokens if possible!
+# E.g: 
+#    IncidentValue: 
+#        ETH: 1271
+#        DAI: 283
+IncidentValue:
+    ETH: 2378
+
+# Estimated USD value of the incident loss/damage
+IncidentLossInUSD: 645'000
+
+# Description of the hack
+Description: >
+    FlashLoan attack
+
+
+# List sources likes news or incident reports here
+Sources: |
+    https://peckshield.medium.com/bzx-hack-ii-full-disclosure-with-detailed-profit-analysis-8126eecc1360

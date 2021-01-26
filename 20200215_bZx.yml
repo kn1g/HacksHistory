@@ -1,0 +1,61 @@
+# Company behind the project if applicable
+Company: bZx
+
+# Project name
+Project: bZx
+
+# Project sector/type
+# Choose between: DeFi, CEX, Network or add a new category
+Category: DeFi
+
+# What type of incident? E.g. rug-pull, hack, technical-failure, DoS, disclosure
+Type: hack
+
+# Keywordlist (add new if not appropriate):
+# FlashLoan
+# PriceManipulation
+# ...
+Keywords: [FlashLoan,PriceManipulation]
+
+# Date as accurate as possible. Can be a range if applicable.
+# Format: [start<dd M yyyy>, end<dd M yyyy> (if applicable)]
+Date: [15 Feb 2020]
+
+# Transaction hash if applicable
+TxHash: https://etherscan.io/tx/0xb5c8bd9430b6cc87a0e2fe110ece6bf527fa4f170a4bc8cd032f768fc5219838
+
+# TVL in ETH
+ProjectTVL:
+
+# Accurate Loss/damage in Coins/Tokens if possible!
+IncidentValue: 
+    ETH: 1271
+
+# Estimated USD value of the incident loss/damage
+IncidentLossInUSD: 350000
+
+# If funds were compensated. When? (could be a range)
+# Format: [start<dd M yyyy>, end<dd M yyyy> (if applicable)]
+CompensationDay: []
+
+# If funds have been returned, rescued through a white hack or compensated somehow
+Compensation:
+    # In case a white hacker 
+    Whitehacked:
+    # If the funds were insured or the project compensated users in some way
+    Compensated: 
+    # In case the hacker returned funds
+    Returned: 
+
+# The USD amount of the compensated coins/tokens valued at return day
+IncidentCompensationInUSD:
+
+# Description of the hack
+Description: >
+    Interconnectedness of DeFi protocols. The exploit involved taking out flash-loans (borrowed and repaid in a single transaction) and manipulating asset prices to drain funds from lending pools by taking larger loans than was possible under normal circumstances.
+
+
+# List sources likes news or incident reports here
+Sources: |
+    https://peckshield.medium.com/bzx-hack-full-disclosure-with-detailed-profit-analysis-e6b1fa9b18fc
+    https://decrypt.co/19612/how-a-genius-hacker-made-350000-exploiting-defi

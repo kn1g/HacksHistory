@@ -1,0 +1,59 @@
+# Company behind the project if applicable
+Company: Curve
+
+# 
+Project: Curve
+
+# Project sector/type
+# Choose between: DeFi, CEX, Network or add a new category
+Category: DeFi
+
+Type: Disclosure
+
+# Date as accurate as possible. Can be a range if applicable.
+# Format: [start<dd M yyyy>, end<dd M yyyy> (if applicable)]
+Date: [25 Jan 2020,]
+
+# Transaction hash if applicable
+TxHash: 0x0
+
+# TVL in Ether!!!
+ProjectTVL:
+
+# Accurate Loss/damage in Coins/Tokens if possible!
+IncidentValue: 
+    ETH: 0, 
+    DAI: 0
+
+# Estimated USD value of the incident loss/damage
+IncidentLossInUSD: 0
+
+# If funds were compensated. When? (could be a range)
+# Format: [start<dd M yyyy>, end<dd M yyyy> (if applicable)]
+CompensationDay: [0,0]
+
+# If funds have been returned, rescued through a white hack or compensated somehow
+Compensation:
+    # In case a white hacker 
+    Whitehacked:
+        ETH: 0
+        DAI: 0
+    # If the funds were insured or the project compensated users in some way
+    Compensated: 
+        ETH: 0
+    # In case the hacker returned funds
+    Returned: 
+        ETH: 0
+
+# The USD amount of the compensated coins/tokens valued at return day
+IncidentCompensationInUSD: 0
+
+# Description of the hack
+Description: >
+        Description....
+        ...
+
+
+# List sources likes news or incident reports here
+Sources: |
+        http://

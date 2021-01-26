@@ -1,0 +1,69 @@
+# Company behind the project if applicable
+Company: Balancer
+
+# Project name
+Project: Balancer
+
+# Project sector/type
+# Choose between: DeFi, CEX, Network or add a new category
+Category: DeFi
+
+# What type of incident? E.g. rug-pull, hack, technical-failure, DoS, disclosure
+Type: hack
+
+# Keywordlist (add new if not appropriate):
+# FlashLoan
+# PriceManipulation
+# ...
+Keywords: [flashloan,]
+
+# Date as accurate as possible. Can be a range if applicable.
+# Format: [start<dd M yyyy>, end<dd M yyyy> (if applicable)]
+Date: []
+
+# Transaction hash if applicable
+TxHash: 
+
+# TVL in ETH
+ProjectTVL:
+
+# Accurate Loss/damage in Coins/Tokens if possible!
+# E.g: 
+#    IncidentValue: 
+#        ETH: 1271
+#        DAI: 283
+IncidentValue:
+    ETH: 
+
+# Estimated USD value of the incident loss/damage
+IncidentLossInUSD: 
+
+# If funds were compensated. When? (could be a range)
+# Format: [start<dd M yyyy>, end<dd M yyyy> (if applicable)]
+CompensationDay: []
+
+# If funds have been returned, rescued through a white hack or compensated somehow
+Compensation:
+    # In case a white hacker 
+    Whitehacked:
+        ETH: 0
+        DAI: 0
+    # If the funds were insured or the project compensated users in some way
+    Compensated: 
+        ETH: 0
+    # In case the hacker returned funds
+    Returned: 
+        ETH: 0
+
+# The USD amount of the compensated coins/tokens valued at return day
+IncidentCompensationInUSD: 0
+
+# Description of the hack
+Description: >
+        Description....
+        ...
+
+
+# List sources likes news or incident reports here
+Sources: |
+        http://
